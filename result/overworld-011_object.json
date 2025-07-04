@@ -1,22 +1,52 @@
 {
-  "columns": 14,
-  "image": "../object_urban.png",
-  "imageheight": 1728,
-  "imagewidth": 224,
+  "columns": 36,
+  "image": "assets/map/tiles/object.png",
+  "imageheight": 912,
+  "imagewidth": 576,
   "margin": 0,
-  "name": "object_urban",
+  "name": "object",
   "spacing": 0,
-  "tilecount": 1512,
+  "tilecount": 2052,
   "tiledversion": "1.10.2",
   "tileheight": 16,
   "tilewidth": 16,
-  "transparentcolor": "#ff00ff",
+  "transparentcolor": "#fff568",
   "type": "tileset",
   "version": "1.10",
-  "firstgid": 2052,
+  "firstgid": 1,
   "tiles": [
     {
-      "id": 248,
+      "id": 1,
+      "properties": [
+        {
+          "name": "collides",
+          "type": "bool",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "properties": [
+        {
+          "name": "collides",
+          "type": "bool",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "properties": [
+        {
+          "name": "collides",
+          "type": "bool",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 37,
       "properties": [
         {
           "name": "collides",
@@ -26,27 +56,7 @@
       ]
     },
     {
-      "id": 262,
-      "properties": [
-        {
-          "name": "collides",
-          "type": "bool",
-          "value": false
-        }
-      ]
-    },
-    {
-      "id": 276,
-      "properties": [
-        {
-          "name": "collides",
-          "type": "bool",
-          "value": false
-        }
-      ]
-    },
-    {
-      "id": 290,
+      "id": 38,
       "properties": [
         {
           "name": "collides",
@@ -56,7 +66,17 @@
       ]
     },
     {
-      "id": 304,
+      "id": 39,
+      "properties": [
+        {
+          "name": "collides",
+          "type": "bool",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 73,
       "properties": [
         {
           "name": "collides",
@@ -66,7 +86,7 @@
       ]
     },
     {
-      "id": 317,
+      "id": 74,
       "properties": [
         {
           "name": "collides",
@@ -76,37 +96,47 @@
       ]
     },
     {
-      "id": 318,
+      "id": 1858,
       "properties": [
         {
           "name": "collides",
           "type": "bool",
-          "value": false
+          "value": true
         }
       ]
     },
     {
-      "id": 319,
+      "id": 1986,
       "properties": [
         {
           "name": "collides",
           "type": "bool",
-          "value": false
+          "value": true
         }
       ]
     },
     {
-      "id": 320,
+      "id": 1987,
       "properties": [
         {
           "name": "collides",
           "type": "bool",
-          "value": false
+          "value": true
         }
       ]
     },
     {
-      "id": 321,
+      "id": 2022,
+      "properties": [
+        {
+          "name": "collides",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": 2023,
       "properties": [
         {
           "name": "collides",

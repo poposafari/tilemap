@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.10.2" name="floor" tilewidth="16" tileheight="16" tilecount="1728" columns="24">
- <image source="floor.png" trans="fff568" width="384" height="1152"/>
+ <image source="../png/floor.png" trans="ff00ff" width="384" height="1152"/>
  <tile id="0">
   <properties>
    <property name="collides" type="bool" value="false"/>
@@ -10,7 +10,7 @@
  <tile id="1">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="2">
@@ -22,7 +22,7 @@
  <tile id="3">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="4">
@@ -34,7 +34,7 @@
  <tile id="5">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="6">
@@ -46,7 +46,7 @@
  <tile id="7">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="8">
@@ -298,7 +298,7 @@
  <tile id="49">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="50">
@@ -310,19 +310,19 @@
  <tile id="51">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="52">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="water"/>
   </properties>
  </tile>
  <tile id="53">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="54">
@@ -334,7 +334,7 @@
  <tile id="55">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="56">
@@ -460,13 +460,13 @@
  <tile id="76">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="water"/>
   </properties>
  </tile>
  <tile id="77">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="water"/>
   </properties>
  </tile>
  <tile id="78">
@@ -586,7 +586,7 @@
  <tile id="97">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="98">
@@ -598,7 +598,7 @@
  <tile id="99">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="100">
@@ -610,7 +610,7 @@
  <tile id="101">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="102">
@@ -622,7 +622,7 @@
  <tile id="103">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="104">
@@ -874,7 +874,7 @@
  <tile id="145">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="146">
@@ -886,7 +886,7 @@
  <tile id="147">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="148">
@@ -898,7 +898,7 @@
  <tile id="149">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="150">
@@ -910,7 +910,7 @@
  <tile id="151">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="152">
@@ -1162,7 +1162,7 @@
  <tile id="193">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="194">
@@ -1174,7 +1174,7 @@
  <tile id="195">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="196">
@@ -1186,7 +1186,7 @@
  <tile id="197">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="198">
@@ -1198,7 +1198,7 @@
  <tile id="199">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="200">
@@ -1450,7 +1450,7 @@
  <tile id="241">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="water"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="242">
@@ -1462,7 +1462,7 @@
  <tile id="243">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="water"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="244">
@@ -1474,7 +1474,7 @@
  <tile id="245">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="246">
@@ -1486,7 +1486,7 @@
  <tile id="247">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="248">
@@ -1738,7 +1738,7 @@
  <tile id="289">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="290">
@@ -1750,7 +1750,7 @@
  <tile id="291">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="292">
@@ -1762,7 +1762,7 @@
  <tile id="293">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="land"/>
+   <property name="type" value="none"/>
   </properties>
  </tile>
  <tile id="294">
@@ -8542,7 +8542,7 @@
  <tile id="1423">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="water"/>
+   <property name="type" value="land"/>
   </properties>
  </tile>
  <tile id="1424">
@@ -8680,13 +8680,13 @@
  <tile id="1446">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="water"/>
+   <property name="type" value="land"/>
   </properties>
  </tile>
  <tile id="1447">
   <properties>
    <property name="collides" type="bool" value="false"/>
-   <property name="type" value="water"/>
+   <property name="type" value="land"/>
   </properties>
  </tile>
  <tile id="1448">

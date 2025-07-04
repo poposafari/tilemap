@@ -19,7 +19,7 @@ def start():
         print("잘못된 번호")
         return
 
-    file_path = os.path.join(os.getcwd(), file_name)
+    file_path = os.path.join(os.getcwd()+'/json', file_name)
 
     try:
         with open(file_path, 'r', encoding='utf-8') as f:

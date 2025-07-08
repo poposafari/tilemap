@@ -1,6 +1,6 @@
 {
   "columns": 13,
-  "image": "../png/urban.png",
+  "image": "../../png/outdoor/urban.png",
   "imageheight": 1536,
   "imagewidth": 208,
   "margin": 0,
@@ -551,7 +551,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -606,7 +606,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -1351,7 +1351,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -1416,7 +1416,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -2141,7 +2141,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -2206,7 +2206,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -3001,7 +3001,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -3066,7 +3066,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -3791,7 +3791,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -4256,7 +4256,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -4486,7 +4486,7 @@
         {
           "name": "collides",
           "type": "bool",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -4581,7 +4581,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -5296,7 +5296,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -5311,7 +5311,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -5376,7 +5376,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -6021,7 +6021,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -6486,7 +6486,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -6691,7 +6691,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -7416,7 +7416,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -7431,7 +7431,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -8136,7 +8136,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -8471,7 +8471,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -9386,7 +9386,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -10091,7 +10091,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -11356,7 +11356,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -11371,7 +11371,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -12206,7 +12206,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },
@@ -12401,7 +12401,7 @@
         {
           "name": "event",
           "type": "string",
-          "value": "warp_"
+          "value": "enter_"
         }
       ]
     },

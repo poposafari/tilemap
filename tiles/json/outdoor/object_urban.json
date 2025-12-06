@@ -1,0 +1,15 @@
+{ "columns":63,
+ "image":"..\/..\/png\/outdoor\/object_urban.png",
+ "imageheight":976,
+ "imagewidth":1008,
+ "margin":0,
+ "name":"object_urban",
+ "spacing":0,
+ "tilecount":3843,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "transparentcolor":"#fff568",
+ "type":"tileset",
+ "version":"1.10"
+}

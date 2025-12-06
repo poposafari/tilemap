@@ -1,0 +1,15 @@
+{ "columns":72,
+ "image":"..\/..\/png\/outdoor\/edge.png",
+ "imageheight":960,
+ "imagewidth":1153,
+ "margin":0,
+ "name":"edge",
+ "spacing":0,
+ "tilecount":4320,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "transparentcolor":"#fff568",
+ "type":"tileset",
+ "version":"1.10"
+}

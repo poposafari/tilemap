@@ -1,11 +1,11 @@
-{ "columns":8,
+{ "columns":7,
  "image":"..\/..\/png\/event.png",
- "imageheight":32,
- "imagewidth":128,
+ "imageheight":48,
+ "imagewidth":112,
  "margin":0,
  "name":"event",
  "spacing":0,
- "tilecount":16,
+ "tilecount":21,
  "tiledversion":"1.10.2",
  "tileheight":16,
  "tiles":[
@@ -22,23 +22,23 @@
          "id":1,
          "properties":[
                 {
-                 "name":"collides",
+                 "name":"light",
                  "type":"bool",
                  "value":true
-                }, 
-                {
-                 "name":"event",
-                 "type":"string",
-                 "value":"surf"
                 }]
         }, 
         {
          "id":2,
          "properties":[
                 {
-                 "name":"light",
-                 "type":"bool",
-                 "value":true
+                 "name":"spawn",
+                 "type":"string",
+                 "value":"water"
+                }, 
+                {
+                 "name":"type",
+                 "type":"string",
+                 "value":"water_1"
                 }]
         }, 
         {
@@ -47,7 +47,12 @@
                 {
                  "name":"spawn",
                  "type":"string",
-                 "value":"land"
+                 "value":"water"
+                }, 
+                {
+                 "name":"type",
+                 "type":"string",
+                 "value":"water_2"
                 }]
         }, 
         {
@@ -56,7 +61,147 @@
                 {
                  "name":"spawn",
                  "type":"string",
-                 "value":"water"
+                 "value":"land"
+                }, 
+                {
+                 "name":"type",
+                 "type":"string",
+                 "value":"snow_1"
+                }]
+        }, 
+        {
+         "id":5,
+         "properties":[
+                {
+                 "name":"spawn",
+                 "type":"string",
+                 "value":"land"
+                }, 
+                {
+                 "name":"type",
+                 "type":"string",
+                 "value":"sand_1"
+                }]
+        }, 
+        {
+         "id":6,
+         "properties":[
+                {
+                 "name":"spawn",
+                 "type":"string",
+                 "value":"land"
+                }]
+        }, 
+        {
+         "id":7,
+         "properties":[
+                {
+                 "name":"spawn",
+                 "type":"string",
+                 "value":"land"
+                }, 
+                {
+                 "name":"type",
+                 "type":"string",
+                 "value":"grass_1"
+                }]
+        }, 
+        {
+         "id":8,
+         "properties":[
+                {
+                 "name":"spawn",
+                 "type":"string",
+                 "value":"land"
+                }, 
+                {
+                 "name":"type",
+                 "type":"string",
+                 "value":"grass_2"
+                }]
+        }, 
+        {
+         "id":9,
+         "properties":[
+                {
+                 "name":"spawn",
+                 "type":"string",
+                 "value":"land"
+                }, 
+                {
+                 "name":"type",
+                 "type":"string",
+                 "value":"grass_3"
+                }]
+        }, 
+        {
+         "id":10,
+         "properties":[
+                {
+                 "name":"spawn",
+                 "type":"string",
+                 "value":"land"
+                }, 
+                {
+                 "name":"type",
+                 "type":"string",
+                 "value":"grass_4"
+                }]
+        }, 
+        {
+         "id":11,
+         "properties":[
+                {
+                 "name":"spawn",
+                 "type":"string",
+                 "value":"land"
+                }, 
+                {
+                 "name":"type",
+                 "type":"string",
+                 "value":"grass_5"
+                }]
+        }, 
+        {
+         "id":12,
+         "properties":[
+                {
+                 "name":"spawn",
+                 "type":"string",
+                 "value":"land"
+                }, 
+                {
+                 "name":"type",
+                 "type":"string",
+                 "value":"grass_6"
+                }]
+        }, 
+        {
+         "id":13,
+         "properties":[
+                {
+                 "name":"spawn",
+                 "type":"string",
+                 "value":"land"
+                }, 
+                {
+                 "name":"type",
+                 "type":"string",
+                 "value":"grass_7"
+                }]
+        }, 
+        {
+         "id":14,
+         "properties":[
+                {
+                 "name":"collides",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"event",
+                 "type":"string",
+                 "value":"surf"
                 }]
         }],
  "tilewidth":16,

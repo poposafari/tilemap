@@ -1,0 +1,15 @@
+{ "columns":40,
+ "image":"..\/..\/png\/outdoor\/urban.png",
+ "imageheight":1152,
+ "imagewidth":640,
+ "margin":0,
+ "name":"urban",
+ "spacing":0,
+ "tilecount":2880,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "transparentcolor":"#fff568",
+ "type":"tileset",
+ "version":"1.10"
+}

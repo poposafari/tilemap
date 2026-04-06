@@ -1,0 +1,15 @@
+{ "columns":48,
+ "image":"..\/..\/png\/outdoor\/object.png",
+ "imageheight":832,
+ "imagewidth":768,
+ "margin":0,
+ "name":"object",
+ "spacing":0,
+ "tilecount":2496,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "transparentcolor":"#fff568",
+ "type":"tileset",
+ "version":"1.10"
+}

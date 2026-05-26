@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import xml.etree.ElementTree as ET
 
 EXTRACT_TARGET_KEYS = [
     "compressionlevel", "height", "infinite", "layers", "nextlayerid", "nextobjectid",
@@ -23,6 +24,26 @@ INDOOR_TILESET_NAMES = [
 
 def remove_Lx_prefix(s: str) -> str:
     return re.sub(r"^L\d+_", "", s)
+
+def parse_tsx_animations(tsx_path: str) -> dict[int, list[dict]]:
+    if not os.path.exists(tsx_path):
+        return {}
+    animations = {}
+    tree = ET.parse(tsx_path)
+    for tile_elem in tree.getroot().findall('tile'):
+        anim_elem = tile_elem.find('animation')
+        if anim_elem is None:
+            continue
+        tile_id = int(tile_elem.get('id'))
+        frames = []
+        for frame in anim_elem.findall('frame'):
+            frames.append({
+                "tileid": int(frame.get('tileid')),
+                "duration": int(frame.get('duration'))
+            })
+        if frames:
+            animations[tile_id] = frames
+    return animations
 
 def extract(file_number: str, overworld_type:str,tile_type: str):
     input_path = f"./map/before/{overworld_type}{file_number}.json"
@@ -51,12 +72,18 @@ def extract(file_number: str, overworld_type:str,tile_type: str):
             "used": set()
         }
 
+    tsx_animations = {}
+
     for tile in tilesets:
         source = tile.get("source", "")
         firstgid = tile.get("firstgid")
-        name = source.removeprefix("tsx/").removesuffix(".tsx")
+        name = os.path.splitext(os.path.basename(source))[0]
         if name in tile_maps:
             tile_maps[name]["firstgid"] = firstgid
+            tsx_path = os.path.normpath(os.path.join("./map/before", source))
+            anims = parse_tsx_animations(tsx_path)
+            if anims:
+                tsx_animations[name] = anims
 
     for layer in layers:
         name = remove_Lx_prefix(layer.get("name", ""))
@@ -90,8 +117,19 @@ def extract(file_number: str, overworld_type:str,tile_type: str):
         all_tiles = tile_data.get("tiles", [])
         filtered_tiles = [tile for tile in all_tiles if tile.get("id") in used_ids]
 
+        animations = tsx_animations.get(key, {})
+        if animations:
+            existing_ids = {t["id"] for t in filtered_tiles}
+            for tile in filtered_tiles:
+                tid = tile.get("id")
+                if tid in animations:
+                    tile["animation"] = animations[tid]
+            for tid, anim in animations.items():
+                if tid not in existing_ids and tid in used_ids:
+                    filtered_tiles.append({"id": tid, "animation": anim})
+
         new_tileset = {}
-        for inner_key in EXTRACT_INNER_KEYS:  
+        for inner_key in EXTRACT_INNER_KEYS:
             if inner_key == "tiles":
                 new_tileset["tiles"] = filtered_tiles
             elif inner_key in tile_data:

@@ -1,6 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.10.2" name="edge" tilewidth="16" tileheight="16" tilecount="6100" columns="61">
+ <editorsettings>
+  <export target="../../tiles/json/outdoor/edge.json" format="json"/>
+ </editorsettings>
  <image source="../../tiles/png/outdoor/edge.png" trans="e9a042" width="976" height="1600"/>
+ <tile id="378">
+  <animation>
+   <frame tileid="378" duration="500"/>
+   <frame tileid="500" duration="500"/>
+   <frame tileid="622" duration="500"/>
+  </animation>
+ </tile>
+ <tile id="379">
+  <animation>
+   <frame tileid="379" duration="500"/>
+   <frame tileid="501" duration="500"/>
+   <frame tileid="623" duration="500"/>
+  </animation>
+ </tile>
+ <tile id="380">
+  <animation>
+   <frame tileid="380" duration="500"/>
+   <frame tileid="502" duration="500"/>
+   <frame tileid="624" duration="500"/>
+  </animation>
+ </tile>
+ <tile id="381">
+  <animation>
+   <frame tileid="381" duration="500"/>
+   <frame tileid="503" duration="500"/>
+   <frame tileid="625" duration="500"/>
+  </animation>
+ </tile>
+ <tile id="382">
+  <animation>
+   <frame tileid="382" duration="500"/>
+   <frame tileid="504" duration="500"/>
+   <frame tileid="626" duration="500"/>
+  </animation>
+ </tile>
+ <tile id="439">
+  <animation>
+   <frame tileid="439" duration="500"/>
+   <frame tileid="561" duration="500"/>
+   <frame tileid="683" duration="500"/>
+  </animation>
+ </tile>
+ <tile id="440">
+  <animation>
+   <frame tileid="440" duration="500"/>
+   <frame tileid="562" duration="500"/>
+   <frame tileid="684" duration="500"/>
+  </animation>
+ </tile>
+ <tile id="441">
+  <animation>
+   <frame tileid="441" duration="500"/>
+   <frame tileid="563" duration="500"/>
+   <frame tileid="685" duration="500"/>
+  </animation>
+ </tile>
+ <tile id="442">
+  <animation>
+   <frame tileid="320" duration="500"/>
+   <frame tileid="442" duration="500"/>
+   <frame tileid="564" duration="500"/>
+  </animation>
+ </tile>
+ <tile id="443">
+  <animation>
+   <frame tileid="443" duration="500"/>
+   <frame tileid="565" duration="500"/>
+   <frame tileid="687" duration="500"/>
+  </animation>
+ </tile>
  <tile id="4793">
   <animation>
    <frame tileid="4793" duration="300"/>

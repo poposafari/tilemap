@@ -82,7 +82,7 @@
  <tile id="13">
   <properties>
    <property name="spawn" value="land"/>
-   <property name="type" value="grass_7"/>
+   <property name="type" value="water_edge"/>
   </properties>
  </tile>
  <tile id="14">

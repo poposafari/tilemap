@@ -187,7 +187,7 @@
                 {
                  "name":"type",
                  "type":"string",
-                 "value":"grass_7"
+                 "value":"water_edge"
                 }]
         }, 
         {
@@ -202,6 +202,29 @@
                  "name":"event",
                  "type":"string",
                  "value":"surf"
+                }]
+        }, 
+        {
+         "id":15,
+         "properties":[
+                {
+                 "name":"tile_sound",
+                 "type":"string",
+                 "value":"road"
+                }]
+        }, 
+        {
+         "id":16,
+         "properties":[
+                {
+                 "name":"spawn",
+                 "type":"string",
+                 "value":"land"
+                }, 
+                {
+                 "name":"tile_sound",
+                 "type":"string",
+                 "value":"road"
                 }]
         }],
  "tilewidth":16,

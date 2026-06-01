@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.10.2" name="event" tilewidth="16" tileheight="16" tilecount="21" columns="7">
  <editorsettings>
-  <export target="../json/outdoor/event.json" format="json"/>
+  <export target="../json/indoor/event.json" format="json"/>
  </editorsettings>
  <image source="../png/event.png" trans="fff568" width="112" height="48"/>
  <tile id="0">
@@ -89,6 +89,17 @@
   <properties>
    <property name="collides" type="bool" value="true"/>
    <property name="event" value="surf"/>
+  </properties>
+ </tile>
+ <tile id="15">
+  <properties>
+   <property name="tile_sound" value="road"/>
+  </properties>
+ </tile>
+ <tile id="16">
+  <properties>
+   <property name="spawn" value="land"/>
+   <property name="tile_sound" value="road"/>
   </properties>
  </tile>
 </tileset>

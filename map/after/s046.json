@@ -97361,9 +97361,9 @@
         0,
         0,
         0,
-        0,
-        0,
-        0,
+        14822,
+        14823,
+        14824,
         0,
         0,
         0,
@@ -108119,7 +108119,6 @@
       ],
       "height": 100,
       "id": 9,
-      "locked": true,
       "name": "L8_object_urban",
       "opacity": 1,
       "type": "tilelayer",
@@ -121390,7 +121389,7 @@
         13731,
         0,
         0,
-        0,
+        13731,
         0,
         0,
         0,
@@ -133282,9 +133281,9 @@
         1042,
         1043,
         0,
-        0,
-        0,
-        0,
+        14776,
+        14777,
+        14778,
         0,
         1041,
         1042,
@@ -144160,7 +144159,6 @@
       ],
       "height": 100,
       "id": 12,
-      "locked": true,
       "name": "foreground_0",
       "opacity": 1,
       "type": "tilelayer",
@@ -156737,11 +156735,42 @@
       "imagewidth": 736,
       "name": "outdoor_object_urban",
       "tilecount": 3220,
-      "tiles": [],
+      "tiles": [
+        {
+          "id": 1070,
+          "properties": [
+            {
+              "name": "dummy",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 1071,
+          "properties": [
+            {
+              "name": "dummy",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 1072,
+          "properties": [
+            {
+              "name": "dummy",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        }
+      ],
       "tilewidth": 16,
       "tileheight": 16,
       "type": "tileset",
-      "firstgid": 0
+      "firstgid": 13752
     },
     {
       "columns": 52,
